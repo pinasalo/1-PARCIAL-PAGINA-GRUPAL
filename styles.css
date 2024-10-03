@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #28a745; 
+    --secondary-color: #566f8a; 
+    --danger-color: #dc3545; 
+    --warning-color: #ffc107; 
+    --success-color: #198754; 
+    --text-color: #ffffff; 
+    --background-color: #f8f9fa; 
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine 
+}
+
+header {
+    background-color: var(--success-color); 
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.triage-inmediato {
+    background-color: #dc3545; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-urgencias {
+    background-color: #ffc107; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-urgencia-menor {
+    background-color: #28a745; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.triage-sin-urgencia {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #28a745; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
